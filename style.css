@@ -1,64 +1,72 @@
-body{
+body {
+    font-family: 'Noto Sans', sans-serif;
     background-color: azure;
 }
-header{
+
+header {
     background-color: lightcoral;
-    
+
     margin: ;
     margin-top: ;
     margin-bottom: 60px;
     margin-left: ;
     margin-right: ;
 
-    padding: 10px ;
+    padding: 10px;
     padding-top: ;
     padding-bottom: ;
-    padding-left: 150px ;
+    padding-left: 150px;
     padding-right: ;
 
-    border: ;
     position: fixed;
-    top: 0px ;
+    top: 0px;
     bottom: ;
     left: 0px;
     right: ;
-    width: 100% ;
+    width: 100%;
     height: 30px;
 
 }
-img{
+
+img {
     display: inline;
 }
-nav{
+
+nav {
     display: inline;
 }
-nav ul{
+
+nav ul {
     display: inline;
 }
-nav li{
+
+nav li {
     display: inline;
-    margin-left: 200px ;
+    margin-left: 200px;
 }
-.texto-principal{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.texto-principal {
+    
     font-size: 40px;
     color: maroon;
     padding-left: 10px;
     margin: 20px;
 }
-h1{
+
+h1 {
     text-align: center;
     margin: 100px;
 }
 
-.lista{
-    font-family: Arial, Helvetica, sans-serif;
+.lista {
+    
     font-size: 30px;
     margin: 20px;
 }
+
 li::marker {
     font-size: 25px;
-    color:black;
+    color: black;
     content: "★";
 }
 
@@ -67,21 +75,32 @@ li::marker {
 
 
 
-li{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+li {
+    
     font-size: 20px;
 }
 
-.imagem-position1{
-    border: 5px solid violet;
+.imagem-position1 {
+
     width: 300px;
     height: 300px;
-    position: sticky;
-    top: 100px;     
+    position: absolute;
+    top: 150px;
     bottom: ;
-    left: 500px ;
+    left: 500px;
     right: ;
 }
-#img-position1{
-    border: 3px dotted darkviolet;
+
+.lista {
+    
+    padding-left: 30vw;
+}
+h2{
+    margin-bottom: 15px;
+}
+.itens{
+    margin-left: 20px;
+}
+.titulo2{
+    margin-top: 300px;
 }
