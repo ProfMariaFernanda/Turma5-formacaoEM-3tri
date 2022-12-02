@@ -5,7 +5,7 @@ body {
 
 header {
     background-color: lightcoral;
-
+    background-image: url(estrelas.png);
     margin: ;
     margin-top: ;
     margin-bottom: 60px;
@@ -42,6 +42,25 @@ nav ul {
 nav li {
     display: inline;
     margin-left: 200px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+nav a:hover{
+    font-size: 25px;
+    color: goldenrod;
+    border-color: goldenrod;
+    
+}
+nav a:active{
+    background-color: gray;
+    padding: 2px;
 }
 
 .texto-principal {
@@ -107,4 +126,16 @@ h2{
     border-bottom: 10px solid blue ;
     border-left: 10px solid green ;
     border-right: 10px solid yellow ;
+}
+footer p{
+    text-align: right;
+    margin-top: 60px;
+    height: 30px;
+}
+footer{
+    background-image: url(estrelas.png);
+}
+.itens::first-letter{
+    color: blue;
+    font-size: 30px;
 }
